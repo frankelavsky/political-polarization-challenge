@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	 
+	<meta charset="utf-8">
+	<title>Congress Polarization Study</title>
+	<meta name="description" content="Congress Polarization Study">
+	<meta name="author" content="Frank Elavsky">
+	<link rel="stylesheet" type="text/css" href="scripts/main.css"/>
+	</head>
+	<body>
+
+	<div id="header_space">
+	</div>
+	<div id="main_container">
+		<div id="title">50 Years of Congress,<br>a Study in Ideological Polarization</div>
+		<div id="viewbar">
+			<div id="partition_left" class="btn"><div class="btn_text"><</div></div>
+			<div class="text_holder">	
+				<p style="text-align: center; margin-bottom: 0;">Current View:</p>
+				<div id="subtitle">Congress #90, 1967-1969</div>
+			</div>
+			<div id="partition_right" class="btn"><div class="btn_text">></div></div>
+		</div>
+		<div id="house" class="container">
+			<h1>House Analysis</h1>
+			<svg class="scatterplot"></svg>
+			<svg class="bargraph"></svg>
+		</div>
+		<div id="senate" class="container">
+			<h1>Senate Analysis</h1>
+			<svg class="scatterplot"></svg>
+			<svg class="bargraph"></svg>
+		</div>
+	
+	</div>
+
+	</body>
+</html>
+<script type="text/javascript" src="scripts/data/congress_data.js"></script>
+<script data-main="scripts/main" src="scripts/require.js"></script>
