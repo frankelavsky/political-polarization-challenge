@@ -1,5 +1,5 @@
 html {
-	font-family: sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 12px;
 }
 body {
@@ -7,9 +7,15 @@ body {
 	padding:25px;
 }
 #title {
-	font-size: 18px;
+	display:inline-block;
+	font-size: 38px;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
+	left:0;
+	width:48%;
+}
+.subtext {
+	font-size: 75%;
 }
 #subtitle {
 	font-size: 16px;
@@ -22,14 +28,42 @@ body {
 	left:8%;
 	right:8%;
 	width: 1260px;
-	padding:25px;
+	padding:10px;
+}
+.bar, .dot {
+	mix-blend-mode: multiply;
 }
 h1 {
-	font-size: 14px;
+	margin-top:0px;
+	text-align: center;
+	font-size: 24px;
 	font-weight: bold;
+}
+.split {
+	display:inline-block;
+	left:0;
+	width:48%;
+}
+.right {
+	display:inline-block;
+	width:40%;
+}
+h2 {
+	margin-top: 0px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: italic;
 }
 .hidden {
 	display: none !important;
+}
+.viewwrap {
+	position:relative;
+	top:-20px;
+	display:inline-block;
+	left:0;
+	width:48%;
 }
 #viewbar {
 	position:relative;
@@ -46,12 +80,10 @@ h1 {
 .scatterplot {
 	width:580px;
 	height:350px;
-	padding:10px;
 }
 .bargraph {
 	width:580px;
 	height:350px;
-	padding:10px;
 }
 .btn {
 	display:inline-block;
