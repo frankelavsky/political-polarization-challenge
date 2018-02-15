@@ -126,7 +126,6 @@ function(d3) {
 					.on("mousemove",mousemove)
 					.on("mouseout",mouseout);
 			} else {
-				console.log("show the old stuff!")
 				d3.selectAll(("."+dot_class)).classed("hidden",false)
 			}
 			

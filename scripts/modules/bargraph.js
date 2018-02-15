@@ -112,9 +112,9 @@ function(d3) {
 							return rep_opacity_scale(d.range);
 						}
 						return dem_opacity_scale(d.range); 
-					});
+					})
+					//.style("mix-blend-mode","screen");
 			} else {
-				console.log("show the old stuff!")
 				d3.selectAll(("."+bar_class)).classed("hidden",false)
 			}
 
